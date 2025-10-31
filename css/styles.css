@@ -393,7 +393,7 @@ img {
     align-items: baseline;
 }
 
-.footer-logo-container {
+.footer-logo-box {
     margin-right: 120px;
 }
 
@@ -409,7 +409,12 @@ img {
     margin-top: 16px;
 }
 
-.footer-social-heading {
+.footer-social-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-social-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -444,25 +449,8 @@ img {
     background-color: var(--success);
 }
 
-.footer-social-icon {
+.footer-social-svg {
     fill: var(--light);
     width: 24px;
     height: 24px;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-svg {
-    fill: currentColor;
 }
