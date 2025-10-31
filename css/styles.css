@@ -19,7 +19,13 @@ body {
     background-color: var(--white);
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -41,13 +47,12 @@ img {
     margin: 0 auto;
 }
 
-/* Header styles */
 .header {
     border-bottom: 1px solid var(--accent);
     background-color: var(--white);
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
-                0px 1px 1px rgba(46, 47, 66, 0.16), 
-                0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
     padding: 20px 0;
 }
 
@@ -140,11 +145,10 @@ img {
     color: var(--pressed-state);
 }
 
-/* Hero section */
 .hero {
     background-color: var(--dark);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-                      url('../images/hero-bg.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/hero-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -185,7 +189,6 @@ img {
     background-color: var(--pressed-state);
 }
 
-/* Sections */
 .section {
     padding: 120px 0;
 }
@@ -200,7 +203,6 @@ img {
     margin-bottom: 72px;
 }
 
-/* Features section */
 .features-list {
     display: flex;
     gap: 24px;
@@ -218,6 +220,7 @@ img {
     background-color: var(--light);
     border-radius: 4px;
     margin-bottom: 8px;
+    border: 1px solid var(--subtle-text);
 }
 
 .features-icon svg {
@@ -241,7 +244,6 @@ img {
     color: var(--text);
 }
 
-/* Team section */
 .team {
     background-color: var(--light);
 }
@@ -254,9 +256,9 @@ img {
 .team-item {
     background-color: var(--white);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-                0px 1px 1px rgba(46, 47, 66, 0.16), 
-                0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
     width: calc((100% - 72px) / 4);
 }
 
@@ -283,7 +285,6 @@ img {
     margin-bottom: 8px;
 }
 
-/* Social links */
 .social-list {
     display: flex;
     justify-content: center;
@@ -317,7 +318,6 @@ img {
     height: 16px;
 }
 
-/* Portfolio section */
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -331,9 +331,9 @@ img {
 }
 
 .portfolio-item:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-                0px 1px 1px rgba(46, 47, 66, 0.16), 
-                0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-image-wrapper {
@@ -388,7 +388,6 @@ img {
     color: var(--text);
 }
 
-/* Footer */
 .footer {
     background-color: var(--dark);
     padding: 100px 0;
@@ -424,7 +423,7 @@ img {
     margin-bottom: 16px;
 }
 
-.footer-social .social-list {
+.footer-social-list {
     gap: 16px;
 }
 
@@ -450,7 +449,6 @@ img {
     height: 24px;
 }
 
-/* Utilities */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -464,7 +462,6 @@ img {
     overflow: hidden;
 }
 
-/* SVG styles */
 svg {
     fill: currentColor;
 }
